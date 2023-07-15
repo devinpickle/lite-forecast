@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | City of Dayton</title>
+    <meta name="description" content="Dayton Chamber of Commerce">
+    <link rel="stylesheet" href="../css/normalize.css" >
+    <link rel="stylesheet" href="css/commerce.css" >
+</head>
+<body>
+    <script src="js/main.js" type="module"></script>
+    <header>
+        <div class="logomotto">
+            <img src="images/jet.png" alt="Dayton chamber logo" loading="lazy">
+            <h1>City of Dayton</h1>
+        </div>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a class="menubutton" href="#">&#9776; Menu</a></li>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="city.html">City</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a class="current" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="contact-grid">
+            <div class="contact-info">
+                <h2>Contact</h2>
+                <p>Thank you for your interest in the Dayton Area Chamber of Commerce. Interested in learning more?  Contact us using the information below. We look forward to speaking with you.</p>
+                <ul>
+                    <li>Tel: (937) 226-1444</li>
+                    <li>Fax: (937) 226-8254</li>
+                    <li>E-mail: info@dacc.org</li>
+                </ul>
+                <p><strong>Hours of Operation:</strong>
+                8 a.m. – 5 p.m. Monday-Friday</p>
+                <p><strong>Address:</strong>
+                    8 N. Main Street<br>
+                    Suite 100<br>
+                    Dayton, Ohio 45402-1904</p>
+
+            </div>
+            <img src="images/contact.jpg" alt="man using phone" loading="lazy">
+        </div>
+        <div class="mapform-grid">
+            <div id="embedded-map">
+                <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d107038.7674201267!2d-84.18469176330078!3d39.754400669460516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1638914581499!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" loading="lazy"></iframe>
+            </div >
+            <form id="contactform" action="thanks.html" method="get">
+                <fieldset>
+                    <legend>User Contact Info</legend>
+                    <label for="fullname">Full name:</label><br>
+                    <input type="text" id="fullname" name="fullname"><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" placeholder="johndoe@gmail.com"><br>
+                    <label for="phone">Phone #:</label><br>
+                    <input type="tel" id="phone" name="phone"><br>
+                    <label for="comments">Additional Comments:</label><br>
+                    <textarea id="comments" name="comments" rows="4" cols="40"></textarea><br>
+
+                    <input type="submit" name="submit" value="Submit">
+                </fieldset>
+            </form>
+        </div>
+        <h2>Board of Directors</h2>
+        <div class="directorgrid">
+            <div class="director">
+                <img src="images/kershner.jpg" alt="Chris Kershner" loading="lazy">
+                <div class="directorinfo">
+                    <h3>Chris Kershner, CAE, IOM</h3>
+                    <p>President and CEO</p>
+                </div>
+            </div>
+            <div class="director">
+                <img src="images/ashworth.jpg" alt="Linda Ashworth" loading="lazy">
+                <div class="directorinfo">
+                    <h3>Linda Ashworth</h3>
+                    <p>Chief Operating Officer</p>
+                </div>
+                
+            </div>
+            <div class="director">
+                <img src="images/allen.jpg" alt="Holly Allen" loading="lazy">
+                <div class="directorinfo">
+                    <h3>Holly Allen</h3>
+                    <p>Vice President, Marketing & Communications</p>
+                </div>
+            </div>
+            <div class="director">
+                <img src="images/keinath.jpg" alt="Stephanie Keinath" loading="lazy">
+                <div class="directorinfo">
+                    <h3>Stephanie Keinath</h3>
+                    <p>Vice President, Strategic Initiatives</p>
+                </div>
+            </div>
+            <div class="director">
+                <img src="images/byers.jpg" alt="Amanda Byers" loading="lazy">
+                <div class="directorinfo">
+                    <h3>Amanda Byers</h3>
+                    <p>Director, Talent & Policy</p>
+                </div>
+            </div>
+            <div class="director">
+                <img src="images/stenson.jpg" alt="Belinda Mattews Stenson" loading="lazy">
+                <div class="directorinfo">
+                    <h3>Belinda Mattews Stenson</h3>
+                    <p>Director, Minority Business Development</p>
+                </div>
+            </div>
+        </div>
+
+        
+    </main>
+    <footer>
+        &copy; <span id="currentyear"></span> Lite Forecast | <a href="https://developer.mozilla.org/en-US/">MDN Documentation Site</a> | BYU-Idaho | Devin Picklesimer | Last Updated: <span id="lastModified"></span>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js">
+    </script>
+    <script>
+        WebFont.load({
+            google: {families: ['Cinzel', 'Lato']}
+        });
+    </script>
+</body>
+</html>

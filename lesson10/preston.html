@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lite Forecast | Preston, Idaho</title>
+    <meta name="description" content="Weather Site Home Plan">
+    <link rel="stylesheet" href="../css/normalize.css" >
+    <link rel="stylesheet" href="css/weather.css" >
+    <link rel="shortcut icon" href="images/favicon.ico">
+</head>
+<body>
+    <script src="js/main.js" type="module"></script>
+    <header>
+        <div class="pancakebanner">Saturday = Preston Pancakes in the Park! <br>
+            Time: 9:00 a.m. <br>
+            Where: The city park pavilion.</div>
+        <div class="logomotto">
+            <img src="images/weatherlogo.png" alt="lite forecast logo">
+            <h1>Lite Forecast</h1>
+            <p class="logo-p"><i>Weather, Made Easy</i></p>
+        </div>
+    </header>
+    <nav>
+        <noscript class="jsnote">JavaScript is needed to enhance content on this page.</noscript>
+        <ul class="navigation">
+            <li><a class="menubutton" href="#">&#9776; Menu</a></li>
+            <li><a  href="../lesson9/index.html">Home</a></li>
+            <li><a class="current" href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="../lesson9/stormcenter.html">Storm Center</a></li>
+            <li><a href="../lesson9/gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Preston Idaho</h2>
+        <figure class="logo">
+            <section class="herobox" id="heroboxLarge">
+                <h3>Weather Summary</h3><hr>
+                <ul>
+                    <li>Currently: <span id="condition-large"></span></li>
+                    <li>Temp: <span id="temp-large">??</span>°F</li>
+                    <li>Wind Chill: <span id="windChill-large">??</span>°F</li>
+                    <li>Humidity: <span id="humidity-large">??</span></li>
+                    <li>Wind Speed: <span id="windSpeed-large">?</span>mph</li>
+                </ul>
+            </section>
+            <img src="images/franklin500.jpg" alt="logo" sizes="80vw"
+            srcset="images/franklin500.jpg 450w, images/franklin900.jpg 600w,
+            images/franklin1400.jpg 1200w">
+            <section class="herobox" id="heroboxSmall">
+                <h3>Weather Summary</h3><hr>
+                <ul>
+                    <li>Currently: <span id="condition-small"></span></li>
+                    <li>Temp: <span id="temp-small">??</span>°F</li>
+                    <li>Wind Chill: <span id="windChill-small">??</span>°F</li>
+                    <li>Humidity: <span id="humidity-small">??</span>%</li>
+                    <li>Wind Speed: <span id="windSpeed-small">?</span>mph</li>
+                </ul>
+            </section>
+        </figure>   
+        
+        <div class="content-box" id="fiveday">
+            <table class="forecast-table">
+                <tr>
+                  <th><span id="day1-weekday"></span></th>
+                  <th><span id="day2-weekday"></span></th>
+                  <th><span id="day3-weekday"></span></th>
+                  <th><span id="day4-weekday"></span></th>
+                  <th><span id="day5-weekday"></span></th>
+                </tr>
+                <tr>
+                  <td><img id="day1-icon" src=images/placeholder.jpg alt="placeholder image"></td>
+                  <td><img id="day2-icon" src=images/placeholder.jpg alt="placeholder image"></td>
+                  <td><img id="day3-icon" src=images/placeholder.jpg alt="placeholder image"></td>
+                  <td><img id="day4-icon" src=images/placeholder.jpg alt="placeholder image"></td>
+                  <td><img id="day5-icon" src=images/placeholder.jpg alt="placeholder image"></td>
+                </tr>
+                <tr>
+                  <td><span id="day1-temp"></span></td>
+                  <td><span id="day2-temp"></span></td>
+                  <td><span id="day3-temp"></span></td>
+                  <td><span id="day4-temp"></span></td>
+                  <td><span id="day5-temp"></span></td>
+                </tr>
+              </table>
+              
+        </div>
+        <div class="content-box">Article: <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quaerat reiciendis, facere voluptatum perferendis at a rerum iure laborum nesciunt vero maiores debitis, optio ducimus nobis iusto deleniti incidunt unde est tenetur qui fugiat voluptates? Veritatis ipsum expedita, quisquam dolore tempore, accusamus, accusantium impedit temporibus hic nobis atque placeat quo. Asperiores fugit nesciunt alias porro sit necessitatibus quidem dignissimos deleniti at consectetur corporis, odio quos! Numquam porro aspernatur repudiandae enim debitis, nobis aliquam, ducimus error quisquam eos laudantium facere distinctio excepturi, beatae sequi quibusdam consectetur dolore quaerat voluptates qui eligendi. Libero pariatur debitis rerum sapiente dolore quidem esse nihil neque!</div>
+        <div class="contactinfo">
+            <img src="images/map.jpg" alt="Map of Preston">
+            <div class="content-box" id="contact">
+                <ul>
+                    <li>Contact Info</li>
+                    <li>Here's some info</li>
+                    <li>Some more info</li>
+                    <li>Even more info<li>
+                </ul>
+                <a href="https://www.facebook.com"><img src="images/facebook.jpg" alt="facebook"></a>
+                
+            </div>
+        </div>
+        
+    </main>
+    <footer>
+        &copy; <span id="currentyear"></span> Lite Forecast | <a href="https://developer.mozilla.org/en-US/">MDN Documentation Site</a> | BYU-Idaho | Devin Picklesimer | Last Updated: <span id="lastModified"></span>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js">
+    </script>
+    <script>
+        WebFont.load({
+            google: {families: ['Yantramanav', 'Russo One']}
+        });
+    </script>
+</body>
+</html>

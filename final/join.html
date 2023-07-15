@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join | City of Dayton</title>
+    <meta name="description" content="Dayton Chamber of Commerce">
+    <link rel="stylesheet" href="../css/normalize.css" >
+    <link rel="stylesheet" href="css/commerce.css" >
+</head>
+<body>
+    <script src="js/main.js" type="module"></script>
+    <header>
+        <div class="logomotto">
+            <img src="images/jet.png" alt="Dayton chamber logo" loading="lazy">
+            <h1>City of Dayton</h1>
+        </div>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a class="menubutton" href="#">&#9776; Menu</a></li>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="city.html">City</a></li>
+            <li><a class="current" href="join.html">Join</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Join the Dayton Chamber of Commerce</h2>
+        <span class="required-field" id="instruction-asterisk">*</span>Required and must be filled.
+        <div class="storm-center-box">
+            <form action="thanks.html" method="get">
+                <fieldset>
+                    <legend>User Info</legend>
+                    <label for="firstname"><span class="required-field">*</span> First name:</label><br>
+                    <input type="text" id="firstname" name="firstname" required ><br>
+                    <label for="lastname"><span class="required-field">*</span> Last name:</label><br>
+                    <input type="text" id="lastname" name="lastname" required ><br>
+                    <label for="title">Title:</label><br>
+                    <input type="text" id="title" name="title"><br>
+                    <label for="email"><span class="required-field">*</span>Email:</label><br>
+                    <input type="email" id="email" name="email" placeholder="johndoe@gmail.com" required><br>
+                    <label for="phone">Phone #:</label><br>
+                    <input type="tel" id="phone" name="phone"><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Business Info</legend>
+                    <label for="businessname"><span class="required-field">*</span> Business name:</label><br>
+                    <input type="text" id="businessname" name="businessname" required ><br>
+
+                    <label for="businessaddress">Business address:</label><br>
+                    <input type="text" id="businessaddress" name="businessaddress"><br>
+
+                    <label for="businesswebsite">Business website:</label><br>
+                    <input type="text" id="businesswebsite" name="businesswebsite"><br>
+
+                    <label for="businessdescription">Business description:</label><br>
+                    <textarea id="businessdescription" name="businessdescription" rows="4" cols="40"></textarea><br>
+
+                    <p class="normal-p">Membership Level</p><br>
+                    <input type="radio" id="nonprofit" name="membership" value="nonprofit">
+                    <label for="nonprofit">Non-profit</label><br>
+                    <input type="radio" id="bronze" name="membership" value="bronze">
+                    <label for="bronze">Bronze</label><br>
+                    <input type="radio" id="silver" name="memebership" value="silver">
+                    <label for="silver">Silver</label><br>
+                    <input type="radio" id="gold" name="memebership" value="gold">
+                    <label for="gold">Gold</label><br>
+
+                    <input type="submit" name="submit" value="Submit">
+                    
+                </fieldset>
+                
+
+            </form>
+        </div>
+    </main>
+    <footer>
+        &copy; <span id="currentyear"></span> Lite Forecast | <a href="https://developer.mozilla.org/en-US/">MDN Documentation Site</a> | BYU-Idaho | Devin Picklesimer | Last Updated: <span id="lastModified"></span>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js">
+    </script>
+    <script>
+        WebFont.load({
+            google: {families: ['Cinzel', 'Lato']}
+        });
+    </script>
+</body>
+</html>

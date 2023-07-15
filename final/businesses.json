@@ -1,0 +1,67 @@
+{
+  "businesses": [
+    {
+      "name": "Hollywood Gaming Dayton Raceway",
+      "address": "777 Hollywood Blvd., Dayton, OH 45414",
+      "contact": "(937) 235-7800",
+      "website": "https://www.hollywooddaytonraceway.com/",
+      "imageurl": "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_600,w_1200,x_0,y_0/v1620218615/tenants/838e2631-4671-4cc0-b9a6-76ed3467c572/adfc9dfce46544ee8d0241b5ada18c83/HG-DAYTON-PRIMARY-GOLD.png"
+    },
+    {
+      "name": "Chase",
+      "address": "40 N. Main Street, 3rd Floor, Dayton, OH, 45423-1000",
+      "contact": "(937) 449-8800",
+      "website": "https://www.chase.com/",
+      "imageurl": "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_400,w_400,x_0,y_0/v1540821968/tenants/838e2631-4671-4cc0-b9a6-76ed3467c572/4af669c342234bee886a52afdfbebfc5/GZ-Chase.png"
+    },
+    {
+      "name": "CareSource",
+      "address": "230 North Main Street, Dayton, OH, 45402",
+      "contact": "(937) 531-2808",
+      "website": "https://www.caresource.com/",
+      "imageurl": "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_417,w_417,x_0,y_0/v1572036148/tenants/838e2631-4671-4cc0-b9a6-76ed3467c572/fb893b29b9b941898a4c568f8091b2f8/CareSource-GZ.jpg"
+    },
+    {
+      "name": "Taylor Communications",
+      "address": "600 Albany Street, Dayton, OH, 45408-1442",
+      "contact": "Not Available",
+      "website": "https://www.taylorcommunications.com/",
+      "imageurl": "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_225,w_225,x_0,y_0/v1618575990/tenants/838e2631-4671-4cc0-b9a6-76ed3467c572/828727350bdb4810b464a869c06487d1/download.png"
+    },
+    {
+      "name": "University of Dayton",
+      "address": "300 College Park, #7537, Dayton, OH, 45469",
+      "contact": "Not Available",
+      "website": "https://udayton.edu/",
+      "imageurl": "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_1908,w_1736,x_0,y_0/v1625061510/tenants/838e2631-4671-4cc0-b9a6-76ed3467c572/1f948fae855a436abe9fc1f039d16700/UD-logo-vertical-2color.jpg"
+    },
+    {
+      "name": "Trimble, Inc.",
+      "address": "5475 Kellenburger Rd., Dayton, OH, 45424",
+      "contact": "(937) 245-5365",
+      "website": "https://www.trimble.com/",
+      "imageurl": "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_135,w_450,x_0,y_0/v1625061479/tenants/838e2631-4671-4cc0-b9a6-76ed3467c572/282ca22fdcb14930b27a3926b1690313/Trimble-JPEG.jpg"
+    },
+    {
+      "name": "Dayton Children's Hospital",
+      "address": "1 Children's Plaza, Dayton, OH, 45404",
+      "contact": "Not Available",
+      "website": "https://www.childrensdayton.org/",
+      "imageurl": "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_502,w_507,x_0,y_0/v1625059673/tenants/838e2631-4671-4cc0-b9a6-76ed3467c572/d29fbd0fce46413599d3b7fc955b2cb3/Dayton-Childrens-2016.png"
+    },
+    {
+      "name": "Compunet Clinical Labs",
+      "address": "2308 Sandridge Dr., Dayton, OH, 45439-1847",
+      "contact": "(937) 296-0844",
+      "website": "https://www.compunetlab.com/",
+      "imageurl": "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_126,w_584,x_0,y_0/v1625058540/tenants/838e2631-4671-4cc0-b9a6-76ed3467c572/83c44f8bf39c47e7a8cdd9624a984e64/Compunet-RGB-72.jpg"
+    },
+    {
+      "name": "Premier Health",
+      "address": "110 N Main St Suite 350, Dayton, OH, 45402",
+      "contact": "(800) 554-5285",
+      "website": "https://www.premierhealth.com/",
+      "imageurl": "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_274,w_1402,x_0,y_0/v1625061691/tenants/838e2631-4671-4cc0-b9a6-76ed3467c572/e7f6b7ea31344d5d821e8d64c42d887f/PremierHealth-RGB.png"
+    }
+  ]
+}

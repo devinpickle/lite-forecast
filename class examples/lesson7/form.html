@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Local and Session Storage</title>
+  <style>
+    form>* {
+      display: block;
+    }
+
+    li {
+      list-style: none;
+    }
+  </style>
+
+</head>
+
+<body>
+  <main>
+    <form action="#" method="post">
+      <label for="city">City Name:</label>
+      <input type="text" name="city" id="city">
+      <label for="state">State Name:</label>
+      <input type="text" name="state" id="state">
+      <label for="temp">Current temperature:</label>
+      <input type="text" name="temp" id="temp">
+      <label for="wind">Current Wind Speed:</label>
+      <input type="text" name="wind" id="wind">
+      <input type="submit" value="Submit" id="submit">
+    </form>
+
+    <h2>Local Storage: <span id="lslocationName"></span></h2>
+    <ul>
+      <li>Current Temp: <span id="lscurTemp"></span></li>
+      <li>Wind Speed: <span id="lscurWind"></span></li>
+      <li>Feels Like: <span id="lswindChill"></span></li>
+      <li><button id="clearls">Clear</button></li>
+    </ul>
+    <hr>
+    <h2>Session Storage: <span id="sslocationName"></span></h2>
+    <ul>
+      <li>Current Temp: <span id="sscurTemp"></span></li>
+      <li>Wind Speed: <span id="sscurWind"></span></li>
+      <li>Feels Like: <span id="sswindChill"></span></li>
+      <li><button id="clearss">Clear</button></li>
+    </ul>
+  </main>
+  <script src="js/storage.js"></script>
+</body>
+
+</html>

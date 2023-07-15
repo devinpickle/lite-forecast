@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | City of Dayton</title>
+    <meta name="description" content="Dayton Chamber of Commerce">
+    <link rel="stylesheet" href="../css/normalize.css" >
+    <link rel="stylesheet" href="css/commerce.css" >
+</head>
+<body>
+    <script src="js/main.js" type="module"></script>
+    <header>
+        <div class="logomotto">
+            <img src="images/jet.png" alt="Dayton chamber logo" loading="lazy">
+            <h1>City of Dayton</h1>
+        </div>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a class="menubutton" href="#">&#9776; Menu</a></li>
+            <li><a class="current" href="#">Home</a></li>
+            <li><a href="city.html">City</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Dayton Ohio</h2>
+        <div class="content-box" id="herobox">
+            <section class="herobox">
+                <h3>Current Weather</h3><hr>
+                <ul>
+                    <li>Currently: <span id="condition-large"></span></li>
+                    <li>Temp: <span id="temp-large">??</span>°F</li>
+                    <li>Humidity: <span id="humidity-large">??</span></li>
+                </ul>
+            </section>
+            <img src="images/daytonhero.txt" alt="Dayton Ohio" loading="lazy">
+        </div>
+
+        <h2>Check Out the Local Businesses</h2>
+        <div class="ads">
+            <div class="ind-ad">
+                <h4>Anthem</h4>
+                <img src="images/anthem.jpg" alt="Anthem blue cross blue shield" loading="lazy">
+                <p>Anthem, Inc., is a provider of health insurance in the United States. It is the largest for-profit managed health care company in the Blue Cross Blue Shield Association.</p>
+            </div>
+            <div class="ind-ad">
+                <h4>AT&T</h4>
+                <img src="images/att.jpg" alt="AT&T" loading="lazy">
+                <p>AT&T is the world's largest telecommunications company and the largest provider of mobile telephone services in the U.S.</p>
+            </div>
+            <div class="ind-ad">
+                <h4>Chase</h4>
+                <img src="images/chase.jpg" alt="Chase" loading="lazy">
+                <p>Chase Bank serves nearly half of U.S. households with a broad range of products. Chase online lets you manage your Chase accounts, view statements, monitor activity,  pay bills or transfer funds securely from one central place.</p>
+            </div>
+        </div>
+        
+        
+        <div class="content-box" id="chamber-description">
+            <h2>Dayton Ohio Chamber of Commerce</h2>
+            <p>As the Dayton region’s largest business advocate, the Dayton Area Chamber of Commerce works to help its members grow and supports the business community within its nine county service area in southwest Ohio. The Dayton Area Chamber provides advocacy, cost saving programs, best practice education, and access to a network of more than 2,200 members to help you succeed.</p>
+            <button onclick="window.location.href='join.html'">Join Now</button>
+
+
+        </div>
+        <div class="content-box" id="upcomingevents">
+            <h2>Upcoming Events!</h2>
+            <div class="eventgrid">
+                <div class="cityevent">
+                    <img src="images/diversity.txt" alt="Diversity forum" loading="lazy">
+                    <h3>Diversity and Inclusion Forum</h3>
+                    <p>2021 Workplace Diversity & Inclusion Forum - the only regional event focused on BOTH workforce and supplier diversity and inclusion.</p>
+                </div>
+                <div class="cityevent">
+                    <img src="images/breakfast.jpg" alt="Leadership breakfast" loading="lazy">
+                    <h3>Breakfast Briefing</h3>
+                    <p>Join us as Jeffrey Trzeciak, Executive Director, Dayton Metro Library, presents a business update on the future of the Dayton Metro Library.</p>
+                </div>
+                <div class="cityevent">
+                    <img src="images/party.jpg" alt="Holiday party" loading="lazy">
+                    <h3>Generation Dayton Holiday Party</h3>
+                    <p>Join us as we celebrate Generation Dayton members and volunteer leadership at our annual holiday party. We'll enjoy food, drinks and festivities and introduce the 2022 steering committee.</p>
+                </div>
+    
+            </div>
+
+        </div>
+
+        <div class="content-box" id="threeday">
+            <table class="forecast-table">
+                <tr>
+                  <th><span id="day0-weekday"></span></th>
+                  <th><span id="day1-weekday"></span></th>
+                  <th><span id="day2-weekday"></span></th>
+                </tr>
+                <tr>
+                  <td><img id="day0-icon" src=images/placeholder.jpg alt="placeholder image" loading="lazy"></td>
+                  <td><img id="day1-icon" src=images/placeholder.jpg alt="placeholder image" loading="lazy"></td>
+                  <td><img id="day2-icon" src=images/placeholder.jpg alt="placeholder image" loading="lazy"></td>
+                </tr>
+                <tr>
+                  <td><span id="day0-temp"></span></td>
+                  <td><span id="day1-temp"></span></td>
+                  <td><span id="day2-temp"></span></td>
+                </tr>
+              </table>
+              
+        </div>
+
+        <div class="content-box" id="social">
+            <h2>Find More on Social Media</h2>
+            <div class="socialmedias">
+                <a href="https://www.facebook.com"><img src="images/facebook.jpg" alt="facebook" loading="lazy"></a>
+                <a href="https://www.instagram.com/"><img src="images/insta.jpg" alt="instagram" loading="lazy"></a>
+                <a href="https://twitter.com/"><img src="images/twitter.jpg" alt="twitter" loading="lazy"></a>
+            </div>
+               
+
+        </div>
+        
+    </main>
+    <footer>
+        &copy; <span id="currentyear"></span> Lite Forecast | <a href="https://developer.mozilla.org/en-US/">MDN Documentation Site</a> | BYU-Idaho | Devin Picklesimer | Last Updated: <span id="lastModified"></span>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js">
+    </script>
+    <script>
+        WebFont.load({
+            google: {families: ['Cinzel', 'Lato']}
+        });
+    </script>
+</body>
+</html>
